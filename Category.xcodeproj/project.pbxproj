@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		717CCB661BEB4BA700530850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717CCB651BEB4BA700530850 /* main.m */; };
+		717CCB701BEB4C3E00530850 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 717CCB6F1BEB4C3E00530850 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		717CCB731BEB4CA300530850 /* NSArray+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 717CCB721BEB4CA300530850 /* NSArray+Convert.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		717CCB621BEB4BA700530850 /* Category */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Category; sourceTree = BUILT_PRODUCTS_DIR; };
 		717CCB651BEB4BA700530850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		717CCB6E1BEB4C3E00530850 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		717CCB6F1BEB4C3E00530850 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		717CCB711BEB4CA300530850 /* NSArray+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Convert.h"; sourceTree = "<group>"; };
+		717CCB721BEB4CA300530850 /* NSArray+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Convert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				717CCB651BEB4BA700530850 /* main.m */,
+				717CCB6E1BEB4C3E00530850 /* Person.h */,
+				717CCB6F1BEB4C3E00530850 /* Person.m */,
+				717CCB711BEB4CA300530850 /* NSArray+Convert.h */,
+				717CCB721BEB4CA300530850 /* NSArray+Convert.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717CCB701BEB4C3E00530850 /* Person.m in Sources */,
+				717CCB731BEB4CA300530850 /* NSArray+Convert.m in Sources */,
 				717CCB661BEB4BA700530850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,23 +21,18 @@
 
 @end
 
-
 @implementation Person (Creation)
 
 - (id)initWithName:(NSString *)aName{
   
   self = [super init];
   if (self) {
-
     self.name = aName;
   }
-  
   return self;
 }
 
 @end
-
-
 
 @implementation Person (Life)
 
@@ -53,6 +48,5 @@
 - (void)play{
   NSLog(@"他需要玩耍");
 }
-
 
 @end

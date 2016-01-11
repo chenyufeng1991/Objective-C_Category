@@ -12,7 +12,6 @@
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
-    
 //    Person *jack = [[Person alloc] initWithName:@"Jack"];
 //    NSLog(@"Person:%@",jack.name);
 //    [jack test];
@@ -21,13 +20,10 @@ int main(int argc, const char * argv[]) {
 //    [jack eat];
 //    [jack sleep];
 //    [jack play];
-    
-    
     NSMutableArray *numberArray = [NSArray arrayFromNumber:123];
     for (NSNumber *number in numberArray) {
       NSLog(@"number:%@",number);
     }
-    
   }
   return 0;
 }

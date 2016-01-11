@@ -15,8 +15,6 @@
 - (void)test;
 - (void)eat;
 @end
-
-
 //有可能我们在同一个类中定义一个Category. 也可以新建一个Category文件；
 @interface Person (Creation)
 //实例方法
